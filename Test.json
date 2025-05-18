@@ -1,1 +1,62 @@
-
+[
+  {
+    "name": "Zilean",
+    "type": "json_imdb",
+    "url": "https://zilean.strem.fun/{type}/{id}.json",
+    "search": {
+      "movie": "{imdb_id}",
+      "series": "{imdb_id}"
+    },
+    "item_type": "info_hash",
+    "targets": {
+      "info_hash": "infoHash",
+      "title": "title",
+      "size": "size"
+    }
+  },
+  {
+    "name": "Mediafusion",
+    "type": "json_imdb",
+    "url": "https://mediafusion.strem.fun/{type}/{id}.json",
+    "search": {
+      "movie": "{imdb_id}",
+      "series": "{imdb_id}"
+    },
+    "item_type": "info_hash",
+    "targets": {
+      "info_hash": "infoHash",
+      "title": "title",
+      "size": "size"
+    }
+  },
+  {
+    "name": "Torrentio",
+    "type": "json_imdb",
+    "url": "https://torrentio.strem.fun/{type}/{id}.json",
+    "search": {
+      "movie": "{imdb_id}",
+      "series": "{imdb_id}"
+    },
+    "item_type": "info_hash",
+    "targets": {
+      "info_hash": "infoHash",
+      "title": "title",
+      "size": "size"
+    }
+  },
+  {
+    "name": "Comet (Alldebrid)",
+    "type": "json_imdb",
+    "url": "https://comet.stremiofr.com/{type}/{id}.json?debrid=alldebrid&apikey=EOXOPjjDXsislQQx23se",
+    "search": {
+      "movie": "{imdb_id}",
+      "series": "{imdb_id}"
+    },
+    "item_type": "info_hash",
+    "targets": {
+      "info_hash": "infoHash",
+      "title": "title",
+      "size": "size"
+    }
+  }
+]
